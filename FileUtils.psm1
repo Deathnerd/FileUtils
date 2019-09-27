@@ -46,7 +46,7 @@ function Test-Directory {
             ValueFromPipeline = $true,
             HelpMessage = "The path to check"
         )]
-        [DirectoryInfo]$Path,
+        [IO.DirectoryInfo]$Path,
         [Parameter(
             ParameterSetName = 'readable',
             HelpMessage = "Check for readability of the directory."
